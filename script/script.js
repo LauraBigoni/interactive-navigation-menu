@@ -1,4 +1,5 @@
 const listItems = document.querySelectorAll(".list-item");
+const views = document.querySelectorAll(".content-item");
 
 function activeItem() {
   listItems.forEach((item) => {
